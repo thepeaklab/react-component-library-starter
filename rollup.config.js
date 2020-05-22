@@ -11,13 +11,13 @@ export default {
     {
       file: packageJson.main,
       format: "cjs",
-      sourcemap: true
+      sourcemap: true,
     },
     {
       file: packageJson.module,
       format: "esm",
-      sourcemap: true
-    }
+      sourcemap: true,
+    },
   ],
-  plugins: [peerDepsExternal(), resolve(), commonjs(), typescript()]
+  plugins: [peerDepsExternal(), resolve(), commonjs(), typescript()],
 };

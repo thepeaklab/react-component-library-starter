@@ -6,4 +6,4 @@ export default {
   component: HelloWorld,
 };
 
-export const Default = () => <HelloWorld />;
+export const Default = (): React.ReactNode => <HelloWorld />;
