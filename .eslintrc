@@ -12,6 +12,10 @@
       "version": "detect"
     }
   },
+  "plugins": ["jest"],
+  "env": {
+    "jest/globals": true
+  },
   "extends": [
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
